@@ -3,7 +3,7 @@ import { DataViewPort, DataRow } from './DataTask';
 //import DateHelper from 'libs/helpers/DateHelper'
 import { shallow, mount } from 'enzyme';
 
-describe('Testing DataRow ', function() {
+describe('Testing DataRow ', function () {
   it('Initialise Properly and calculate style', () => {
     // const wrapper =mount(<DataRow top={10}
     // itemheight={30}/>);

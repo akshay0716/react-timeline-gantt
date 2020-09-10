@@ -19,9 +19,9 @@ export class HeaderItem extends PureComponent {
           alignItems: 'center',
           borderLeft: 'solid 1px white',
           position: 'absolute',
-          height: 20,
+          height: 40,
           left: this.props.left,
-          width: this.props.width
+          width: this.props.width,
         }}
       >
         <div>{this.props.label}</div>

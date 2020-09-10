@@ -30,7 +30,7 @@ export class TaskRow extends Component {
         style={{
           ...Config.values.taskList.task.style,
           top: this.props.top,
-          height: this.props.itemheight
+          height: this.props.itemheight,
         }}
         onClick={(e) => this.props.onSelectItem(this.props.item)}
       >
